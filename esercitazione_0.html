@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Il mio Ricettario </title>
+
+	<link rel="stylesheet" type="text/css" href="griglia.css"> 
+
+	<style type="text/css">
+
+
+
+		*{
+			margin: 0;
+		}
+
+
+
+		section{
+			height: 100vh;
+
+		}
+
+		#indice{
+			text-align: center;
+			border: 1
+		}
+
+		#indice a {
+			color: red;
+			font-weight: bold;
+			font-family: comic sans ms;
+
+		}
+
+		nav{
+			padding: 20px;
+			text-align: center;
+		}
+
+		a{
+			padding-left: 10px;
+			text-decoration: none;
+			color:black;
+
+		}
+
+		.home{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+		}
+		
+
+		section{
+			padding:20px;
+		}
+
+		
+		.curiosita{
+			border: 1px solid orange;
+			margin-top: 50px;
+			padding: 10px;
+		}
+
+		.info{
+			padding-right: 20px;
+			border-right: 1px solid orange; ;
+		}
+
+		img{
+			width: 75%;
+			padding-top: 20px;
+		}
+
+		.orange{
+			color: orange;
+		}
+
+		.red{
+			color: red;
+		}
+
+		.green{
+			color: green;
+		}
+
+		#back{
+			background-color: orange;
+			padding: 5px;
+			border-radius: 10px;
+		}
+
+		.max_width_85{
+			max-width: 85%;
+		}
+
+	</style>
+</head>
+
+
+<body>
+
+<header>
+	<nav id="navigazione">
+		<div class="titolo"> <h1>Un Goloso Ricettario</h1><br></div>
+		
+		<div id="indice">
+			<p><strong>Indice</strong></p><br>
+
+			<a href="#sezione_1">American pie (USA) </a> <br><br>
+			<a href="#sezione_2">Pastiera napoletana</a><br><br>
+			<a href="#sezione_3">Brownies (USA) </a><br><br>
+			<a href="#sezione_4">Crema Catalana (Spagna) </a><br><br>
+			<a href="#sezione_5">Granita di caffè con panna </a><br><br>
+		</div>
+	</nav>
+</header>
+
+	<section id="sezione_0">
+	</section>
+	<section id="sezione_1">
+	<div class="container">
+		<div class="row">
+				<div class="info col-4">
+					Difficoltà: <span class="green">minima</span> <br>
+					Preparazione: <span class="green">30 minuti</span><br>
+					Cottura: <span class="green">40 minuti</span>
+				</div>
+			<div class="col-75 home"> 
+				<h1>American pie (USA)</h1>
+				<a href="#indice" id="back">Torna all'indice </a>
+			</div>
+		</div>
+
+		<div class="row">
+		
+		<div class="ingredienti col-4">
+			<h3>Ingredienti per 6-8 persone:</h3><br>
+			<ul>
+				<li>
+				500 g di pasta brisée
+				</li>
+				<li>
+				1 kg di mele Granny Smith
+				</li>
+				<li>
+				150 g di zucchero semolato
+				</li>
+				<li>
+					1 cucchiaio e 1/2 di farina tipo 00
+				</li>
+				<li>
+					1 cucchiaino e 1/2 di cannella in polvere
+				</li>
+				<li>
+					la buccia di 1 limone
+				</li>
+				<li>
+					noce moscata
+				</li>
+				<li>
+					400 g di gelato alla vaniglia
+				</li>
+				<li>
+					burro e farina per lo stampo
+				</li>			
+			</ul>
+		</div>
+	
+			<div class="col-75">
+				<div class="procedimento max_width_85">
+					<p>
+						Lavate le mele, sbucciatele, tagliatele a spicchi e privatele
+						del torsolo; riducete la polpa a cubetti che riunirete in una
+						terrina insieme con la buccia di limone grattugiata, lo zucchero, la farina, un cucchiaino di cannella e un pizzico di noce moscata grattugiata. Mescolate per fare insaporire e tenete da parte.
+						Imburrate e infarinate uno stampo per crostata di 20 cm di
+						diametro. Stendete la pasta brisée in due dischi, uno dei
+						quali leggermente più grande dell'altro, e con il primo foderate lo stampo. Distribuite sopra le mele. Chiudete la torta
+						con il secondo disco, pizzicando i bordi per sigillarli. Cuocete in forno preriscaldato a 200 °C per circa 40 minuti,
+						quindi sformate sul piatto da portata e lasciate intiepidire.
+						Affettate la torta, distribuitela nei piattini individuali e accompagnate ciascuna porzione con due palline di gelato
+						alla vaniglia spolverizzate con la restante cannella.
+					</p>
+					<img src="img/tortamele.png" alt="Immagine Torta di mele"> 
+
+				</div>
+				<div class="curiosita max_width_85">
+					<p>
+						La torta di mele (apple pie), dolce di origine inglese,
+						divenne, con lo sbarco nel Nuovo Mondo, un piatto tipico
+						della zona del New England e ottenne un tale successo in
+						tutti gli States da essere oggi considerato un vero e proprio
+						dolce nazionale, denominato semplicemente American pie.
+						Un celebre detto per definire qualcuno dalle profonde radici
+						americane recita, per l'appunto: "American as an apple pie".
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	</section>
+
+	<section id="sezione_2">
+	<div class="container">
+		<div class="row">
+				<div class="info col-4">
+					Difficoltà: <span class="orange">media</span> <br>
+					Preparazione: <span class="orange">50 minuti</span><br>
+					Cottura: <span class="orange">1 ora e 45 minuti</span>
+				</div>
+			<div class="col-75 home"> 
+				<h1>Pastiera napoletana</h1>
+				<a href="#indice" id="back">Torna all'indice </a>
+			</div>
+		</div>
+
+		<div class="row">
+		
+		<div class="ingredienti col-4">
+			<h3>Ingredienti per 6 persone:</h3><br>
+			<ul>
+				<li>
+					450 g di pasta frolla
+				</li>
+				<li>
+					1/2 scatola di grano lessato per pastiera
+				</li>
+				<li>
+					20 g di burro
+				</li>
+				<li>
+					250 g di ricotta
+				</li>
+				<li>
+					100 g di zucchero semolato
+				</li>
+				<li>
+					3 albumi
+				</li>
+				<li>
+					2 tuorli
+				</li>
+				<li>
+					2,5 litri di latte
+				</li>
+				<li>
+					20 g di acqua di fiori di arancio
+				</li>	
+				<li>
+					40 g di canditi misti
+				</li>	
+				<li>
+					1 cucchiaino di cannella in polvere
+				</li>	
+				<li>
+					1 piccolo limone non trattato
+				</li>	
+				<li>
+					2 cucchiai di zucchero a velo
+				</li>	
+				<li>
+					burro e farina per lo stampo
+				</li>			
+			</ul>
+		</div>
+	
+			<div class="col-75">
+				<div class="procedimento max_width_85">
+					<p>
+						Ponete il grano lessato in una casseruola insieme con il
+						latte e il burro e cuocete a fiamma dolce fino a ottenere un
+						composto cremoso. Lavate e asciugate il limone e grattugiatene la buccia. Montate gli albumi a neve fermissima
+						Lavorate a crema la ricotta insieme con lo zucchero,
+						tuorli, la cannella, i canditi, l'acqua di fiori di arancio e la
+						buccia di limone grattugiata; unite il composto di grano.
+						quindi incorporate gli albumi mescolando delicatamente
+						dal basso verso l'alto. Scaldate il forno a 180 °C.
+						Imburrate e infarinate uno stampo del diametro di 20-22 cm.
+						Stendete la pasta frolla e con la maggior parte di essa foderate lo stampo. Riempite con il ripieno preparato, livellatelo
+						con una spatola e adagiate sopra la pasta rimasta, ridotta
+						a striscioline con un tagliapasta, formando un motivo a griglia. Sigillate bene i bordi e infornate a 180 °C per 1 ora e
+						30 minuti. Sfornate la torta, fatela raffreddare, quindi trasferite su un piatto da portata. Servite in tavola la pastiera fredda, dopo averla spolverizzata con lo zucchero a velo.
+					</p>
+					<img src="img/pastiera.png" alt="Immagine Torta di mele"> 
+
+				</div>
+				<div class="curiosita max_width_85">
+					<p>
+						Si narra che la pastiera napoletana sia stata inventata
+						nella pace segreta di un monastero dimenticato, nei dintorni
+						di Napoli: una suora volle che a quel dolce pasquale, simbolo
+						della Resurrezione, si unisse il profumo dei fiori di arancio
+						e una manciata di grano che ogni anno germoglia dal terreno.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="sezione_3">
+	<div class="container">
+		<div class="row">
+				<div class="info col-4">
+					Difficoltà: <span class="green">minima</span> <br>
+					Preparazione: <span class="green">20 minuti</span><br>
+					Cottura: <span class="green">35 minuti</span>
+				</div>
+			<div class="col-75 home"> 
+				<h1>Brownies (USA)</h1>
+				<a href="#indice" id="back">Torna all'indice </a>
+			</div>
+		</div>
+
+		<div class="row">
+		
+		<div class="ingredienti col-4">
+			<h3>Ingredienti per 6 persone:</h3><br>
+			<ul>
+				<li>
+					100 a di cacao magro in polvere
+				</li>
+				<li>
+					60 g di burro
+				</li>
+				<li>
+					200 g di zucchero
+				</li>
+				<li>
+					1/2 cucchiaino di essenza di vaniglia
+				</li>
+				<li>
+					2 uova fresche
+				</li>
+				<li>
+					100 g di farina tipo 00
+				</li>
+				<li>
+					150 g di gherigli di noce
+				</li>
+				<li>
+					2 cucchiai di zucchero a velo
+				</li>
+				<li>
+					sale
+				</li>			
+			</ul>
+		</div>
+	
+			<div class="col-75">
+				<div class="procedimento max_width_85">
+					<p>
+						Tritate finemente i gherigli di noce. In una terrina amalga.
+						mate con cura il cacao in polvere e 50 g di burro ammorbidito. Unite uno a uno le uova, lo zucchero, l'essenza di
+						vaniglia, la farina, il trito di noci e una presa di sale. Lavo-
+						rate gli ingredienti fino a ottenere un composto omogeneo.
+						Ungete leggermente uno stampo quadrato o rettangolare
+						con il restante burro e versatevi uniformemente il composto, pareggiandone la superficie con una spatola o con la
+						lama di un coltello inumidita. Cuocete nel forno preriscaldato a 150 °C per 35 minuti.
+						A cottura ultimata, sfornate e lasciate intiepidire. Tagliate la
+						torta al cioccolato a pezzi regolari di circa 5 cm di lato e spolverizzateli con lo zucchero a velo. Trasferite i brownies sul piatto da portata e serviteli in tavola tiepidi o freddi.
+					</p>
+					<img src="img/brownies.png" alt="Immagine Torta di mele"> 
+
+				</div>
+				<div class="curiosita max_width_85">
+					<p>
+						La ricetta classica dei brownies, specialità del New England
+						preparata in occasione dei festeggiamenti di Halloween,
+						sembra risalire a una tradizione anglosassone che lega
+						il nome di questi dolcetti alla figura dei Brownies, gli spiritelli
+						benevoli che affondano le loro origini nel folclore scozzese:
+						i Brownies svolgevano le loro mansioni di notte, senza
+						chiedere nulla in cambio dei loro servigi, ma mostrandosi
+						riconoscenti all'offerta di latte e focaccine dolci.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="sezione_4">
+	<div class="container">
+		<div class="row">
+				<div class="info col-4">
+					Difficoltà: <span class="orange">media</span> <br>
+					Preparazione: <span class="orange">20 minuti (più tempo di riposo)</span><br>
+					Cottura: <span class="orange">15 minuti</span>
+				</div>
+			<div class="col-75 home"> 
+				<h1>Crema Catalana (Spagna)</h1>
+				<a href="#indice" id="back">Torna all'indice </a>
+			</div>
+		</div>
+
+		<div class="row">
+		
+		<div class="ingredienti col-4">
+			<h3>Ingredienti per 6 persone:</h3><br>
+			<ul>
+				<li>
+					6 litri di latte
+				</li>
+				<li>
+					4 tuorli
+				</li>
+				<li>
+					100 g di zucchero semolato
+				</li>
+				<li>
+					100 g di zucchero di canna
+				</li>
+				<li>
+					1 piccolo limone non trattato
+				</li>
+				<li>
+					1/2 stecca di cannella
+				</li>
+			</ul>
+		</div>
+	
+			<div class="col-75">
+				<div class="procedimento max_width_85">
+					<p>
+						Lavate il limone, asciugatelo e Mcavatene la buacia con,
+						rigalimoni. Ponete in una casseruoha 6 al di latte, la bugcia di limone tritata e la cannella; trasferite sul fuoco e sua
+						gnete non appena il liquido avra raggiunto l'ebolizione
+						Eliminate la cannella. In una ciotola sbattete i tuoi noieme con lo zucchero semolato; aggiungete la fecola sol.
+						ta nel restante latte, mescolate e versate il latte bollenie,filtrandolo attraverso un colino. Amalgamate con cura il
+						composto, che trasferirete in un'altra casseruola; ponete
+						su fuoco medio, portate a ebollizione e lasciate cuocere finché la crema inizierà a velare il cucchiaio.
+						Versate il composto in cocotte individuali, che lascerete intiepidire e quindi porrete in frigorifero. Al momento di
+						portare in tavola, cospargete le cocotte con lo zucchero di
+						canna e passatele sotto il grill del forno ben caldo per pochi minuti. Servite tiepido.
+					</p>
+					<img src="img/catalana.jpg" alt="Immagine Torta di mele"> 
+
+				</div>
+				<div class="curiosita max_width_85">
+					<p>
+						La crema catalana o crema de Sant Josef, una delle ricette di spicco della cucina catalana tradizionale, è conosciuta nella cucina francese come crème brûlée. L'origine di questo delicatissimo dessert è tuttavia da ricercare proprio in Catalogna. La tradizione vuole che il giorno di San Giuseppe (19 marzo) le nonna o le zie nubili che abitano ancora nella casa dei gentiori preparino questa crema.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="sezione_5">
+	<div class="container">
+		<div class="row">
+				<div class="info col-4">
+					Difficoltà: <span class="green">minima</span> <br>
+					Preparazione: <span class="green">20 minuti (più tempo di raffreddamento)</span><br>
+					Cottura: <span class="green">3 minuti</span>
+				</div>
+			<div class="col-75 home"> 
+				<h1>Granita di caffè con panna </h1>
+				<a href="#indice" id="back">Torna all'indice </a>
+			</div>
+		</div>
+
+		<div class="row">
+		
+		<div class="ingredienti col-4">
+			<h3>Ingredienti per 4 persone:</h3><br>
+			<ul>
+				<li>
+					2.5 al di caffè forte
+				</li>
+				<li>
+					80 g di zucchero
+				</li>
+				<li>
+					1 baccello di vaniglia
+				</li>
+				<li>
+					1 al di panna fresca
+				</li>
+			</ul>
+		</div>
+	
+			<div class="col-75">
+				<div class="procedimento max_width_85">
+					<p>
+						In una piccola casseruola riunite 2,5 di di acqua e 70 gr zuochero; mescolate bene e ponete lo sciroppo su fiamma media, portate a ebollizione e lasciate bollire per almeno 1 minuto. Abbassate la fiamma, unite il catte e mesca.
+						Mescolate bene. Spegnete il fuoco.
+						Incidete il baccello di vaniglia nel senso della lunghezza, ricavatene i semi grattando con un coltellino attilato e con essi aromatizzate lo sciroppo al caffè. Lasciate intiepidire.
+						Filtrate la miscela attraverso un colino a maglie fitte e raccoglietela in un recipiente di plastica o di acciaio resistente al freddo, che riporrete in freezer per 2 ore, mescolando ogni
+						mezz'ora per evitare che la granita risulti troppo compatta. Poco prima di servire montate la panna con lo zucchero rimasto. Distribuite la granita in coppette o tazzine di vetro individuali, guarnite ciascuna con un ciuffo di panna montata e servite subito in tavola.
+					</p>
+					<img src="img/caffe.jpg" alt="Immagine Torta di mele"> 
+
+				</div>
+				<div class="curiosita max_width_85">
+					<p>
+						La granita di caffè rappresenta uno dei pilastri dell'arte dolciaria siciliana: nei tempi addietro le famiglie nobili conservavano la neve dell'Etna in apposite "case neviere" anfratti naturali in luoghi particolarmente freschi delle abitazioni, utilizzandola poi, in aggiunta ad altri ingredienti, per alleviare la calura estiva.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+</body>
+</html>
